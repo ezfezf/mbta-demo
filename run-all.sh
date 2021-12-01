@@ -20,7 +20,8 @@ main()
     echo "checking environment"
     check_tools
     echo "running exercise 1"
-    dart run fetch-subway.dart
+    echo ""
+    dart run fetch-subway.dart | tr ',' '\n' | grep "long_name" | sed -e 's/\"long_name\"://'
     exit $?
 }
 
