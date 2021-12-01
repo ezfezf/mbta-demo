@@ -1,0 +1,7 @@
+
+Notes on exploring data from the MBTA server:
+
+1 b) using the filter attribute in the request reduces the volume of data returned:
+     - imposes less load on the MBTA server
+     - more efficient than returning everything, then filtering/discarding on the client side
+     - faster response (mimimal data is better suited for low bandwidth channels)
