@@ -10,5 +10,5 @@ and display the results by opening a terminal window and typing "./run-all.sh" t
 Here is a manifest of the deliverables:
 * README.md - this summary
 * design-notes.txt - analysis of the programming goals and the approach taken
-* run-all.sh - wrapper ahell script to invoke the programs
+* run-all.sh - wrapper shell script to invoke the programs
 * fetch-subway.dart - simple query to the MBTA server to obtain subway lines
